@@ -1,0 +1,52 @@
+@font-face {
+    font-family: visitor;
+    src: url(../font/visitor1.ttf);
+}
+
+body{
+	font-family: 'visitor', sans-serif;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 40px;
+	color: #BCBBBB;
+}
+
+h3{
+	font-size: 35px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+p{
+	font-size:20px;
+}
+
+.gameControllerLogo{
+	margin-top: 20px;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.hero{
+	background-image: url("../img/spaceCraft.png");
+	background-size:cover;
+	height: 400px;
+	color: white;
+}
+
+@media screen and (max-width: 770px){
+	.hero{
+		height: 250px;
+		max-width: 95vw;
+	}
+}
